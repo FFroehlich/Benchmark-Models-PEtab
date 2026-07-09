@@ -1,0 +1,3 @@
+conditionId	targetId	targetValue
+init	Fish_Biomass_FT	36750
+harvest	Fish_Biomass_FT	piecewise(fish_max, Fish_Biomass_FT > fish_max, Fish_Biomass_FT)

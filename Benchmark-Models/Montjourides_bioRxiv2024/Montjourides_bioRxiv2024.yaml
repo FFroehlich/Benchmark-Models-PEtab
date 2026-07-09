@@ -1,0 +1,17 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Montjourides_bioRxiv2024.tsv
+model_files:
+  model_Montjourides_bioRxiv2024:
+    location: model_Montjourides_bioRxiv2024.xml
+    language: sbml
+measurement_files:
+- measurementData_Montjourides_bioRxiv2024.tsv
+condition_files:
+- conditions_Montjourides_bioRxiv2024.tsv
+experiment_files:
+- experiments_Montjourides_bioRxiv2024.tsv
+observable_files:
+- observables_Montjourides_bioRxiv2024.tsv
+mapping_files: []
+extensions: {}

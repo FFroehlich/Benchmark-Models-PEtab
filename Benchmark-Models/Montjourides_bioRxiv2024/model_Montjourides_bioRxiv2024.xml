@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model metaid="Montjourides_bioRxiv2024" id="Montjourides_bioRxiv2024" name="Montjourides_bioRxiv2024">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#Montjourides_bioRxiv2024">
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="https://doi.org/10.1101/2024.06.28.600787"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfCompartments>
+      <compartment id="FT" name="FT" spatialDimensions="3" size="1" constant="true"/>
+      <compartment id="B1" name="B1" spatialDimensions="3" size="1" constant="true"/>
+      <compartment id="DGS" name="DGS" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="CO2aq_FT" name="CO2aq_FT" compartment="FT" initialConcentration="0.226757369614512" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="HCO3_FT" name="HCO3_FT" compartment="FT" initialConcentration="3.27815112276676" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CO32_FT" name="CO32_FT" compartment="FT" initialConcentration="0.001" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="H_FT" name="H_FT" compartment="FT" initialConcentration="2.51188643150958e-05" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="OH_FT" name="OH_FT" compartment="FT" initialConcentration="0.000398107170553497" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NH4_FT" name="NH4_FT" compartment="FT" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NH3_FT" name="NH3_FT" compartment="FT" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NO2_FT" name="NO2_FT" compartment="FT" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Fishweight_FT" name="Fishweight_FT" compartment="FT" initialConcentration="70" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Fish_Biomass_FT" name="Fish_Biomass_FT" compartment="FT" initialConcentration="36750" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CO2aq_B1" name="CO2aq_B1" compartment="B1" initialConcentration="0.226757369614512" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="HCO3_B1" name="HCO3_B1" compartment="B1" initialConcentration="3.27815112276676" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CO32_B1" name="CO32_B1" compartment="B1" initialConcentration="0.001" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="H_B1" name="H_B1" compartment="B1" initialConcentration="2.51188643150958e-05" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="OH_B1" name="OH_B1" compartment="B1" initialConcentration="0.000316227766016838" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NH4_B1" name="NH4_B1" compartment="B1" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NH3_B1" name="NH3_B1" compartment="B1" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NO2_B1" name="NO2_B1" compartment="B1" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="AOB_B1" name="AOB_B1" compartment="B1" initialConcentration="960000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NOB_B1" name="NOB_B1" compartment="B1" initialConcentration="480000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CO2aq_DGS" name="CO2aq_DGS" compartment="DGS" initialConcentration="0.226757369614512" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="HCO3_DGS" name="HCO3_DGS" compartment="DGS" initialConcentration="3.27815112276676" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CO32_DGS" name="CO32_DGS" compartment="DGS" initialConcentration="0.001" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="H_DGS" name="H_DGS" compartment="DGS" initialConcentration="2.51188643150958e-05" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="OH_DGS" name="OH_DGS" compartment="DGS" initialConcentration="0.000398107170553497" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NH4_DGS" name="NH4_DGS" compartment="DGS" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NH3_DGS" name="NH3_DGS" compartment="DGS" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NO2_DGS" name="NO2_DGS" compartment="DGS" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="F" name="F" value="1" constant="true"/>
+      <parameter id="k1" name="k1" value="0.0149" constant="true"/>
+      <parameter id="k_1" name="k_1" value="18.9" constant="true"/>
+      <parameter id="kH" name="kH" value="25.0593616813636" constant="true"/>
+      <parameter id="k_H" name="k_H" value="50000000" constant="true"/>
+      <parameter id="k3" name="k3" value="1.4" constant="true"/>
+      <parameter id="k_3" name="k_3" value="311111111.111111" constant="true"/>
+      <parameter id="k4" name="k4" value="11.739" constant="true"/>
+      <parameter id="k_4" name="k_4" value="43000000" constant="true"/>
+      <parameter id="muAOB" name="muAOB" value="6.07638888888889e-06" constant="true"/>
+      <parameter id="muNOB" name="muNOB" value="7.63888888888889e-06" constant="true"/>
+      <parameter id="KNH3" name="KNH3" value="0.000714285714285714" constant="true"/>
+      <parameter id="KAlk" name="KAlk" value="0.3" constant="true"/>
+      <parameter id="KNO2" name="KNO2" value="0.0714285714285714" constant="true"/>
+      <parameter id="rhoAOB" name="rhoAOB" value="1.15740740740741e-06" constant="true"/>
+      <parameter id="rhoNOB" name="rhoNOB" value="1.15740740740741e-06" constant="true"/>
+      <parameter id="YAOB" name="YAOB" value="2.94" constant="true"/>
+      <parameter id="YNOB" name="YNOB" value="0.56" constant="true"/>
+      <parameter id="C_HCO3" name="C_HCO3" value="0.212064417603776" constant="true"/>
+      <parameter id="TGC" name="TGC" value="2.7" constant="true"/>
+      <parameter id="Temp" name="Temp" value="14" constant="true"/>
+      <parameter id="w0" name="w0" value="70" constant="true"/>
+      <parameter id="V_FT" name="V_FT" value="1000" constant="true"/>
+      <parameter id="V_B1" name="V_B1" value="800" constant="true"/>
+      <parameter id="V_DGS" name="V_DGS" value="700" constant="true"/>
+      <parameter id="Bcap" name="Bcap" value="1200000" constant="true"/>
+      <parameter id="exchange_rate" name="exchange_rate" value="0.0072337962962963" constant="true"/>
+      <parameter id="r_deg" name="r_deg" value="0.0015" constant="true"/>
+      <parameter id="K_amm" name="K_amm" value="2.73e-10" constant="true"/>
+      <parameter id="OH_dose" name="OH_dose" value="2000" constant="true"/>
+      <parameter id="HCO3_dose" name="HCO3_dose" value="2000" constant="true"/>
+      <parameter id="fish_max" name="fish_max" value="50000" constant="true"/>
+      <parameter id="co2_resp" name="co2_resp" value="62.5" constant="true"/>
+      <parameter id="feed_frac" name="feed_frac" value="0.027" constant="true"/>
+      <parameter id="CO2aq_Sump" name="CO2aq_Sump" value="0" constant="true"/>
+      <parameter id="HCO3_Sump" name="HCO3_Sump" value="1.14735289296837" constant="true"/>
+      <parameter id="CO32_Sump" name="CO32_Sump" value="0.001" constant="true"/>
+      <parameter id="H_Sump" name="H_Sump" value="3.16227766016838e-05" constant="true"/>
+      <parameter id="OH_Sump" name="OH_Sump" value="0.000316227766016838" constant="true"/>
+      <parameter id="NH4_Sump" name="NH4_Sump" value="0" constant="true"/>
+      <parameter id="NH3_Sump" name="NH3_Sump" value="0" constant="true"/>
+      <parameter id="NO2_Sump" name="NO2_Sump" value="0" constant="true"/>
+      <parameter id="day" name="day" constant="false"/>
+      <parameter id="ph" name="ph" constant="false"/>
+      <parameter id="co2_diurnal" name="co2_diurnal" constant="false"/>
+      <parameter id="co2_base" name="co2_base" constant="false"/>
+      <parameter id="CO2P" name="CO2P" constant="false"/>
+      <parameter id="mod_prop" name="mod_prop" constant="false"/>
+      <parameter id="TAN_total" name="TAN_total" constant="false"/>
+      <parameter id="TAN_excr" name="TAN_excr" constant="false"/>
+      <parameter id="NH3_frac" name="NH3_frac" constant="false"/>
+      <parameter id="NH3_excr" name="NH3_excr" constant="false"/>
+      <parameter id="NH4_excr" name="NH4_excr" constant="false"/>
+      <parameter id="dweight" name="dweight" constant="false"/>
+      <parameter id="aob_kin" name="aob_kin" constant="false"/>
+      <parameter id="nob_kin" name="nob_kin" constant="false"/>
+      <parameter id="add_HCO3" name="add_HCO3" constant="false"/>
+      <parameter id="T_HCO3_OH" name="T_HCO3_OH" constant="false"/>
+      <parameter id="T_H_OH" name="T_H_OH" constant="false"/>
+      <parameter id="add_OH" name="add_OH" constant="false"/>
+    </listOfParameters>
+    <listOfRules>
+      <assignmentRule variable="day">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+            <cn type="integer"> 86400 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="ph">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <cn type="integer"> 2 </cn>
+              <cn> 3.14159265358979 </cn>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+            </apply>
+            <cn type="integer"> 86400 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="co2_diurnal">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <cn type="integer"> 1 </cn>
+            <apply>
+              <times/>
+              <cn> 0.274 </cn>
+              <apply>
+                <minus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <cos/>
+                  <ci> ph </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="co2_base">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <divide/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <apply>
+                      <times/>
+                      <ci> co2_resp </ci>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <times/>
+                          <ci> Fishweight_FT </ci>
+                          <cn type="e-notation"> 1 <sep/> -3 </cn>
+                        </apply>
+                        <apply>
+                          <minus/>
+                          <cn> 0.3 </cn>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <power/>
+                        <cn> 1.06 </cn>
+                        <cn type="integer"> 14 </cn>
+                      </apply>
+                      <cn type="rational"> 44 <sep/> 32 </cn>
+                    </apply>
+                    <cn type="integer"> 3600 </cn>
+                  </apply>
+                  <ci> Fish_Biomass_FT </ci>
+                </apply>
+                <cn type="integer"> 1000 </cn>
+              </apply>
+              <cn type="integer"> 44 </cn>
+            </apply>
+            <ci> V_FT </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="CO2P">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> co2_base </ci>
+            <ci> co2_diurnal </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="mod_prop">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <cn type="integer"> 1 </cn>
+            <apply>
+              <times/>
+              <cn> 0.9 </cn>
+              <apply>
+                <cos/>
+                <ci> ph </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="TAN_total">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> feed_frac </ci>
+                <ci> Fish_Biomass_FT </ci>
+                <cn> 0.46 </cn>
+                <cn> 0.092 </cn>
+              </apply>
+              <cn type="integer"> 14 </cn>
+            </apply>
+            <cn type="integer"> 1000 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="TAN_excr">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> mod_prop </ci>
+            <ci> TAN_total </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="NH3_frac">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <cn type="integer"> 1 </cn>
+            <apply>
+              <plus/>
+              <cn type="integer"> 1 </cn>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> H_FT </ci>
+                  <cn type="e-notation"> 1 <sep/> -3 </cn>
+                </apply>
+                <ci> K_amm </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="NH3_excr">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> NH3_frac </ci>
+            <ci> TAN_excr </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="NH4_excr">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <cn type="integer"> 1 </cn>
+              <ci> NH3_frac </ci>
+            </apply>
+            <ci> TAN_excr </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="dweight">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <cn type="integer"> 3 </cn>
+                <ci> TGC </ci>
+                <ci> Temp </ci>
+              </apply>
+              <apply>
+                <times/>
+                <cn type="integer"> 86400 </cn>
+                <cn type="integer"> 1000 </cn>
+              </apply>
+            </apply>
+            <apply>
+              <power/>
+              <apply>
+                <plus/>
+                <apply>
+                  <power/>
+                  <ci> w0 </ci>
+                  <apply>
+                    <divide/>
+                    <cn> 1 </cn>
+                    <cn> 3 </cn>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> TGC </ci>
+                    <ci> Temp </ci>
+                    <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <cn type="integer"> 86400 </cn>
+                    <cn type="integer"> 1000 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <cn type="integer"> 2 </cn>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="aob_kin">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> muAOB </ci>
+            <apply>
+              <divide/>
+              <ci> NH3_B1 </ci>
+              <apply>
+                <plus/>
+                <ci> KNH3 </ci>
+                <ci> NH3_B1 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <ci> HCO3_B1 </ci>
+              <apply>
+                <plus/>
+                <ci> KAlk </ci>
+                <ci> HCO3_B1 </ci>
+              </apply>
+            </apply>
+            <ci> AOB_B1 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="nob_kin">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> muNOB </ci>
+            <apply>
+              <divide/>
+              <ci> NO2_B1 </ci>
+              <apply>
+                <plus/>
+                <ci> NO2_B1 </ci>
+                <ci> KNO2 </ci>
+              </apply>
+            </apply>
+            <ci> NOB_B1 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="add_HCO3">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <piecewise>
+            <piece>
+              <apply>
+                <divide/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <cn> 0.0001 </cn>
+                    <ci> HCO3_dose </ci>
+                  </apply>
+                  <ci> V_B1 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <ci> HCO3_B1 </ci>
+                      <apply>
+                        <divide/>
+                        <cn type="integer"> 200 </cn>
+                        <cn> 50.04 </cn>
+                      </apply>
+                    </apply>
+                    <cn type="integer"> 10 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <or/>
+                <apply>
+                  <leq/>
+                  <ci> day </ci>
+                  <cn type="integer"> 14 </cn>
+                </apply>
+                <apply>
+                  <and/>
+                  <apply>
+                    <gt/>
+                    <ci> day </ci>
+                    <cn type="integer"> 56 </cn>
+                  </apply>
+                  <apply>
+                    <leq/>
+                    <ci> day </ci>
+                    <cn type="integer"> 70 </cn>
+                  </apply>
+                </apply>
+                <apply>
+                  <and/>
+                  <apply>
+                    <gt/>
+                    <ci> day </ci>
+                    <cn type="integer"> 98 </cn>
+                  </apply>
+                  <apply>
+                    <leq/>
+                    <ci> day </ci>
+                    <cn type="integer"> 112 </cn>
+                  </apply>
+                </apply>
+                <apply>
+                  <and/>
+                  <apply>
+                    <gt/>
+                    <ci> day </ci>
+                    <cn type="integer"> 140 </cn>
+                  </apply>
+                  <apply>
+                    <leq/>
+                    <ci> day </ci>
+                    <cn type="integer"> 154 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </piece>
+            <otherwise>
+              <cn type="integer"> 0 </cn>
+            </otherwise>
+          </piecewise>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="T_HCO3_OH">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <piecewise>
+            <piece>
+              <apply>
+                <divide/>
+                <cn type="integer"> 100 </cn>
+                <cn> 50.04 </cn>
+              </apply>
+              <apply>
+                <and/>
+                <apply>
+                  <gt/>
+                  <ci> day </ci>
+                  <cn type="integer"> 14 </cn>
+                </apply>
+                <apply>
+                  <leq/>
+                  <ci> day </ci>
+                  <cn type="integer"> 42 </cn>
+                </apply>
+              </apply>
+            </piece>
+            <piece>
+              <apply>
+                <divide/>
+                <cn type="integer"> 70 </cn>
+                <cn> 50.04 </cn>
+              </apply>
+              <apply>
+                <and/>
+                <apply>
+                  <gt/>
+                  <ci> day </ci>
+                  <cn type="integer"> 42 </cn>
+                </apply>
+                <apply>
+                  <leq/>
+                  <ci> day </ci>
+                  <cn type="integer"> 56 </cn>
+                </apply>
+              </apply>
+            </piece>
+            <piece>
+              <apply>
+                <divide/>
+                <cn type="integer"> 100 </cn>
+                <cn> 50.04 </cn>
+              </apply>
+              <apply>
+                <and/>
+                <apply>
+                  <gt/>
+                  <ci> day </ci>
+                  <cn type="integer"> 70 </cn>
+                </apply>
+                <apply>
+                  <leq/>
+                  <ci> day </ci>
+                  <cn type="integer"> 84 </cn>
+                </apply>
+              </apply>
+            </piece>
+            <piece>
+              <apply>
+                <divide/>
+                <cn type="integer"> 70 </cn>
+                <cn> 50.04 </cn>
+              </apply>
+              <apply>
+                <and/>
+                <apply>
+                  <gt/>
+                  <ci> day </ci>
+                  <cn type="integer"> 84 </cn>
+                </apply>
+                <apply>
+                  <leq/>
+                  <ci> day </ci>
+                  <cn type="integer"> 98 </cn>
+                </apply>
+              </apply>
+            </piece>
+            <piece>
+              <apply>
+                <divide/>
+                <cn type="integer"> 70 </cn>
+                <cn> 50.04 </cn>
+              </apply>
+              <apply>
+                <and/>
+                <apply>
+                  <gt/>
+                  <ci> day </ci>
+                  <cn type="integer"> 112 </cn>
+                </apply>
+                <apply>
+                  <leq/>
+                  <ci> day </ci>
+                  <cn type="integer"> 140 </cn>
+                </apply>
+              </apply>
+            </piece>
+            <otherwise>
+              <cn type="e-notation"> 1 <sep/> 6 </cn>
+            </otherwise>
+          </piecewise>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="T_H_OH">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <cn type="e-notation"> 0.79 <sep/> -6 </cn>
+              <cn type="e-notation"> 1 <sep/> 3 </cn>
+              <ci> CO2aq_B1 </ci>
+            </apply>
+            <ci> T_HCO3_OH </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="add_OH">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <piecewise>
+            <piece>
+              <apply>
+                <divide/>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <cn> 0.0001 </cn>
+                    <ci> OH_dose </ci>
+                  </apply>
+                  <ci> V_B1 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <ci> T_H_OH </ci>
+                      <ci> H_B1 </ci>
+                    </apply>
+                    <cn type="integer"> 10 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <or/>
+                <apply>
+                  <and/>
+                  <apply>
+                    <gt/>
+                    <ci> day </ci>
+                    <cn type="integer"> 14 </cn>
+                  </apply>
+                  <apply>
+                    <leq/>
+                    <ci> day </ci>
+                    <cn type="integer"> 56 </cn>
+                  </apply>
+                </apply>
+                <apply>
+                  <and/>
+                  <apply>
+                    <gt/>
+                    <ci> day </ci>
+                    <cn type="integer"> 70 </cn>
+                  </apply>
+                  <apply>
+                    <leq/>
+                    <ci> day </ci>
+                    <cn type="integer"> 98 </cn>
+                  </apply>
+                </apply>
+                <apply>
+                  <and/>
+                  <apply>
+                    <gt/>
+                    <ci> day </ci>
+                    <cn type="integer"> 112 </cn>
+                  </apply>
+                  <apply>
+                    <leq/>
+                    <ci> day </ci>
+                    <cn type="integer"> 140 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </piece>
+            <otherwise>
+              <cn type="integer"> 0 </cn>
+            </otherwise>
+          </piecewise>
+        </math>
+      </assignmentRule>
+      <rateRule variable="CO2aq_FT">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> k_1 </ci>
+                <ci> H_FT </ci>
+                <ci> HCO3_FT </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k1 </ci>
+                <ci> CO2aq_FT </ci>
+              </apply>
+            </apply>
+            <ci> CO2P </ci>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> CO2aq_DGS </ci>
+                  <ci> CO2aq_FT </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_FT </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="HCO3_FT">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <minus/>
+                  <apply>
+                    <times/>
+                    <ci> k1 </ci>
+                    <ci> CO2aq_FT </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k_1 </ci>
+                    <ci> H_FT </ci>
+                    <ci> HCO3_FT </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k_H </ci>
+                  <ci> H_FT </ci>
+                  <ci> CO32_FT </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kH </ci>
+                <ci> HCO3_FT </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> HCO3_DGS </ci>
+                  <ci> HCO3_FT </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_FT </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="CO32_FT">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kH </ci>
+                <ci> HCO3_FT </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k_H </ci>
+                <ci> H_FT </ci>
+                <ci> CO32_FT </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> CO32_DGS </ci>
+                  <ci> CO32_FT </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_FT </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="H_FT">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <minus/>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <minus/>
+                      <apply>
+                        <plus/>
+                        <apply>
+                          <minus/>
+                          <apply>
+                            <times/>
+                            <ci> k4 </ci>
+                            <ci> NH4_FT </ci>
+                          </apply>
+                          <apply>
+                            <times/>
+                            <ci> k_4 </ci>
+                            <ci> NH3_FT </ci>
+                            <ci> H_FT </ci>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <times/>
+                          <ci> k1 </ci>
+                          <ci> CO2aq_FT </ci>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <times/>
+                        <ci> k_1 </ci>
+                        <ci> H_FT </ci>
+                        <ci> HCO3_FT </ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <ci> kH </ci>
+                      <ci> HCO3_FT </ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k_H </ci>
+                    <ci> H_FT </ci>
+                    <ci> CO32_FT </ci>
+                  </apply>
+                </apply>
+                <ci> k3 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k_3 </ci>
+                <ci> H_FT </ci>
+                <ci> OH_FT </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> H_DGS </ci>
+                  <ci> H_FT </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_FT </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="OH_FT">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <ci> k3 </ci>
+              <apply>
+                <times/>
+                <ci> k_3 </ci>
+                <ci> H_FT </ci>
+                <ci> OH_FT </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> OH_DGS </ci>
+                  <ci> OH_FT </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_FT </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="NH4_FT">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> k4 </ci>
+              </apply>
+              <ci> NH4_FT </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k_4 </ci>
+              <ci> NH3_FT </ci>
+              <ci> H_FT </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <divide/>
+                <ci> NH4_excr </ci>
+                <cn type="integer"> 86400 </cn>
+              </apply>
+              <ci> V_FT </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> NH4_DGS </ci>
+                  <ci> NH4_FT </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_FT </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="NH3_FT">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> k4 </ci>
+                <ci> NH4_FT </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k_4 </ci>
+                <ci> NH3_FT </ci>
+                <ci> H_FT </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <divide/>
+                <ci> NH3_excr </ci>
+                <cn type="integer"> 86400 </cn>
+              </apply>
+              <ci> V_FT </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> NH3_DGS </ci>
+                  <ci> NH3_FT </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_FT </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="NO2_FT">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> NO2_DGS </ci>
+                <ci> NO2_FT </ci>
+              </apply>
+              <ci> F </ci>
+            </apply>
+            <ci> V_FT </ci>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="Fishweight_FT">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> dweight </ci>
+        </math>
+      </rateRule>
+      <rateRule variable="Fish_Biomass_FT">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> Fish_Biomass_FT </ci>
+              <ci> Fishweight_FT </ci>
+            </apply>
+            <ci> dweight </ci>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="CO2aq_B1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> k_1 </ci>
+                <ci> H_B1 </ci>
+                <ci> HCO3_B1 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k1 </ci>
+                <ci> CO2aq_B1 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> CO2aq_FT </ci>
+                  <ci> CO2aq_B1 </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_B1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="HCO3_B1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <minus/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <minus/>
+                    <apply>
+                      <times/>
+                      <ci> k1 </ci>
+                      <ci> CO2aq_B1 </ci>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <ci> k_1 </ci>
+                      <ci> H_B1 </ci>
+                      <ci> HCO3_B1 </ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k_H </ci>
+                    <ci> H_B1 </ci>
+                    <ci> CO32_B1 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> kH </ci>
+                  <ci> HCO3_B1 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> aob_kin </ci>
+                  <ci> C_HCO3 </ci>
+                </apply>
+                <ci> V_B1 </ci>
+              </apply>
+            </apply>
+            <ci> add_HCO3 </ci>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> HCO3_FT </ci>
+                  <ci> HCO3_B1 </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_B1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="CO32_B1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kH </ci>
+                <ci> HCO3_B1 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k_H </ci>
+                <ci> H_B1 </ci>
+                <ci> CO32_B1 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> CO32_FT </ci>
+                  <ci> CO32_B1 </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_B1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="H_B1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <minus/>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <minus/>
+                      <apply>
+                        <plus/>
+                        <apply>
+                          <minus/>
+                          <apply>
+                            <times/>
+                            <ci> k4 </ci>
+                            <ci> NH4_B1 </ci>
+                          </apply>
+                          <apply>
+                            <times/>
+                            <ci> k_4 </ci>
+                            <ci> NH3_B1 </ci>
+                            <ci> H_B1 </ci>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <times/>
+                          <ci> k1 </ci>
+                          <ci> CO2aq_B1 </ci>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <times/>
+                        <ci> k_1 </ci>
+                        <ci> H_B1 </ci>
+                        <ci> HCO3_B1 </ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <ci> kH </ci>
+                      <ci> HCO3_B1 </ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k_H </ci>
+                    <ci> H_B1 </ci>
+                    <ci> CO32_B1 </ci>
+                  </apply>
+                </apply>
+                <ci> k3 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k_3 </ci>
+                <ci> H_B1 </ci>
+                <ci> OH_B1 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> H_FT </ci>
+                  <ci> H_B1 </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_B1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="OH_B1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <ci> k3 </ci>
+              <apply>
+                <times/>
+                <ci> k_3 </ci>
+                <ci> H_B1 </ci>
+                <ci> OH_B1 </ci>
+              </apply>
+            </apply>
+            <ci> add_OH </ci>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> OH_FT </ci>
+                  <ci> OH_B1 </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_B1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="NH4_B1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> k4 </ci>
+              </apply>
+              <ci> NH4_B1 </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k_4 </ci>
+              <ci> NH3_B1 </ci>
+              <ci> H_B1 </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> NH4_FT </ci>
+                  <ci> NH4_B1 </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_B1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="NH3_B1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> k4 </ci>
+                  <ci> NH4_B1 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k_4 </ci>
+                  <ci> NH3_B1 </ci>
+                  <ci> H_B1 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <apply>
+                  <divide/>
+                  <ci> aob_kin </ci>
+                  <ci> V_B1 </ci>
+                </apply>
+                <ci> YAOB </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> NH3_FT </ci>
+                  <ci> NH3_B1 </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_B1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="NO2_B1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <apply>
+                  <divide/>
+                  <ci> aob_kin </ci>
+                  <ci> V_B1 </ci>
+                </apply>
+                <ci> YAOB </ci>
+              </apply>
+              <apply>
+                <divide/>
+                <apply>
+                  <divide/>
+                  <ci> nob_kin </ci>
+                  <ci> V_B1 </ci>
+                </apply>
+                <ci> YNOB </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> NO2_FT </ci>
+                  <ci> NO2_B1 </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_B1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="AOB_B1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> aob_kin </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <minus/>
+                  <ci> Bcap </ci>
+                  <ci> AOB_B1 </ci>
+                </apply>
+                <ci> NOB_B1 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> rhoAOB </ci>
+              <ci> AOB_B1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="NOB_B1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> nob_kin </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <minus/>
+                  <ci> Bcap </ci>
+                  <ci> AOB_B1 </ci>
+                </apply>
+                <ci> NOB_B1 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> rhoNOB </ci>
+              <ci> NOB_B1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="CO2aq_DGS">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> k_1 </ci>
+                  <ci> H_DGS </ci>
+                  <ci> HCO3_DGS </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k1 </ci>
+                  <ci> CO2aq_DGS </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> CO2aq_DGS </ci>
+                <ci> r_deg </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> CO2aq_Sump </ci>
+                  <ci> CO2aq_DGS </ci>
+                </apply>
+                <ci> exchange_rate </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> CO2aq_B1 </ci>
+                  <ci> CO2aq_DGS </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="HCO3_DGS">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <minus/>
+                  <apply>
+                    <times/>
+                    <ci> k1 </ci>
+                    <ci> CO2aq_DGS </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k_1 </ci>
+                    <ci> H_DGS </ci>
+                    <ci> HCO3_DGS </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k_H </ci>
+                  <ci> H_DGS </ci>
+                  <ci> CO32_DGS </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kH </ci>
+                <ci> HCO3_DGS </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> HCO3_Sump </ci>
+                  <ci> HCO3_DGS </ci>
+                </apply>
+                <ci> exchange_rate </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> HCO3_B1 </ci>
+                  <ci> HCO3_DGS </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="CO32_DGS">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kH </ci>
+                <ci> HCO3_DGS </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k_H </ci>
+                <ci> H_DGS </ci>
+                <ci> CO32_DGS </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> CO32_Sump </ci>
+                  <ci> CO32_DGS </ci>
+                </apply>
+                <ci> exchange_rate </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> CO32_B1 </ci>
+                  <ci> CO32_DGS </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="H_DGS">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <minus/>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <minus/>
+                      <apply>
+                        <plus/>
+                        <apply>
+                          <minus/>
+                          <apply>
+                            <times/>
+                            <ci> k4 </ci>
+                            <ci> NH4_DGS </ci>
+                          </apply>
+                          <apply>
+                            <times/>
+                            <ci> k_4 </ci>
+                            <ci> NH3_DGS </ci>
+                            <ci> H_DGS </ci>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <times/>
+                          <ci> k1 </ci>
+                          <ci> CO2aq_DGS </ci>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <times/>
+                        <ci> k_1 </ci>
+                        <ci> H_DGS </ci>
+                        <ci> HCO3_DGS </ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <ci> kH </ci>
+                      <ci> HCO3_DGS </ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k_H </ci>
+                    <ci> H_DGS </ci>
+                    <ci> CO32_DGS </ci>
+                  </apply>
+                </apply>
+                <ci> k3 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k_3 </ci>
+                <ci> H_DGS </ci>
+                <ci> OH_DGS </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> H_Sump </ci>
+                  <ci> H_DGS </ci>
+                </apply>
+                <ci> exchange_rate </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> H_B1 </ci>
+                  <ci> H_DGS </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="OH_DGS">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <ci> k3 </ci>
+              <apply>
+                <times/>
+                <ci> k_3 </ci>
+                <ci> H_DGS </ci>
+                <ci> OH_DGS </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> OH_Sump </ci>
+                  <ci> OH_DGS </ci>
+                </apply>
+                <ci> exchange_rate </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> OH_B1 </ci>
+                  <ci> OH_DGS </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="NH4_DGS">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> k4 </ci>
+              </apply>
+              <ci> NH4_DGS </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> k_4 </ci>
+              <ci> NH3_DGS </ci>
+              <ci> H_DGS </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> NH4_Sump </ci>
+                  <ci> NH4_DGS </ci>
+                </apply>
+                <ci> exchange_rate </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> NH4_B1 </ci>
+                  <ci> NH4_DGS </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="NH3_DGS">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> k4 </ci>
+                <ci> NH4_DGS </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> k_4 </ci>
+                <ci> NH3_DGS </ci>
+                <ci> H_DGS </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> NH3_Sump </ci>
+                  <ci> NH3_DGS </ci>
+                </apply>
+                <ci> exchange_rate </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> NH3_B1 </ci>
+                  <ci> NH3_DGS </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="NO2_DGS">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> NO2_Sump </ci>
+                  <ci> NO2_DGS </ci>
+                </apply>
+                <ci> exchange_rate </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <ci> NO2_B1 </ci>
+                  <ci> NO2_DGS </ci>
+                </apply>
+                <ci> F </ci>
+              </apply>
+              <ci> V_DGS </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+    </listOfRules>
+  </model>
+</sbml>

@@ -1,0 +1,7 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate
+co2_resp	CO2 respiration coefficient	10.0	300.0	62.5	true
+r_deg	degasser CO2 stripping rate	0.0001	0.1	0.0015	true
+muAOB	AOB max specific growth rate	1e-07	0.0001	6.076388888888889e-06	true
+sigma_CO2	CO2 measurement sd	0.01	100.0	2.0	true
+sigma_pH	pH measurement sd	0.001	10.0	0.2	true
+sigma_alkalinity	alkalinity measurement sd	0.1	1000.0	50.0	true

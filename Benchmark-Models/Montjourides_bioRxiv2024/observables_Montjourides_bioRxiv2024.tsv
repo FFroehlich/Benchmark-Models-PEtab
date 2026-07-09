@@ -1,0 +1,4 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution	observablePlaceholders	noisePlaceholders
+observable_CO2	CO2 (fish tank)	CO2aq_FT * 44	noiseParameter1_observable_CO2	normal		noiseParameter1_observable_CO2
+observable_pH	pH (fish tank)	-log(H_FT * 1e-3) / log(10)	noiseParameter1_observable_pH	normal		noiseParameter1_observable_pH
+observable_alkalinity	alkalinity (fish tank)	(OH_FT + HCO3_FT + 2*CO32_FT - H_FT) * 50.04	noiseParameter1_observable_alkalinity	normal		noiseParameter1_observable_alkalinity
